@@ -1,0 +1,9 @@
+[project]
+name = "alpha-diagnostics-lab"
+version = "0.1.0"
+description = "A quantitative research framework for testing alpha signal quality, robustness, and decay."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
